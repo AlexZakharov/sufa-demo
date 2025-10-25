@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Workout.API", "Workout.API\Workout.API.csproj", "{A9D81452-75D5-4788-86AA-8558B4E2A1FA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{983A116F-0AEB-4768-9514-AF1EA78741DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Workout.Domain", "Workout.Domain\Workout.Domain.csproj", "{CF8CCAC1-ADE3-441C-80A2-A50ED3498419}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9D81452-75D5-4788-86AA-8558B4E2A1FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9D81452-75D5-4788-86AA-8558B4E2A1FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9D81452-75D5-4788-86AA-8558B4E2A1FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9D81452-75D5-4788-86AA-8558B4E2A1FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF8CCAC1-ADE3-441C-80A2-A50ED3498419}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF8CCAC1-ADE3-441C-80A2-A50ED3498419}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF8CCAC1-ADE3-441C-80A2-A50ED3498419}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF8CCAC1-ADE3-441C-80A2-A50ED3498419}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A9D81452-75D5-4788-86AA-8558B4E2A1FA} = {983A116F-0AEB-4768-9514-AF1EA78741DD}
+		{CF8CCAC1-ADE3-441C-80A2-A50ED3498419} = {983A116F-0AEB-4768-9514-AF1EA78741DD}
+	EndGlobalSection
+EndGlobal
